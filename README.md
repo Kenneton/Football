@@ -48,4 +48,7 @@ The analysis is contained in a Jupyter Notebook analysis.ipynb and includes:
 * Prediction Models
 
 ## Conclusions and Potential Improvements
-The final section of the notebook discusses the results of the analysis, as well as potential areas for further improvements.
+* Predicting the precise number of goals a team will have in a match does not seem achievable with the data we have. Efforts should be put elsewhere.
+* Prediction of football match outcomes (Home team win, Away team win, Draw) can be achieved to a similar degree of other betting companies. Competitors reached accuracy of ~53%, while our linear model achieved an accuracy of 47% on the test set.
+
+This project was done prior to learning other Machine Learning algorithms. The gap in performance could be achieved by using more complex algorithms or better feature engineering.
