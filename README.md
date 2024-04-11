@@ -51,7 +51,7 @@ The analysis is contained in a Jupyter Notebook analysis.ipynb and includes:
 * Predicting the precise number of goals a team will have in a match does not seem achievable with the data we have. Efforts should be put elsewhere.
 * Prediction of football match outcomes (Home team win, Away team win, Draw) can be achieved to a similar degree of other betting companies. Competitors reached accuracy of ~53%, while our linear model achieved an accuracy of 47% on the test set.
 
-![Confusion Matrix](images/Confusion matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 Classification Report for Test Data (2015/2016):
 
