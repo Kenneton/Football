@@ -55,15 +55,16 @@ The analysis is contained in a Jupyter Notebook analysis.ipynb and includes:
 
 Classification Report for Test Data (2015/2016):
 
-               precision    recall  f1-score   support
+|            | precision | recall | f1-score | support |
+|------------|-----------|--------|----------|---------|
+| Home       | 0.58      | 0.54   | 0.56     | 1456    |
+| Draw       | 0.31      | 0.29   | 0.30     | 854     |
+| Away       | 0.46      | 0.53   | 0.49     | 1008    |
+|            |           |        |          |         |
+| accuracy   |           |        | 0.47     | 3318    |
+| macro avg  | 0.45      | 0.45   | 0.45     | 3318    |
+| weighted avg | 0.47    | 0.47   | 0.47     | 3318    |
 
-        Home       0.58      0.54      0.56      1456
-        Draw       0.31      0.29      0.30       854
-        Away       0.46      0.53      0.49      1008
-
-    accuracy                           0.47      3318
-   macro avg       0.45      0.45      0.45      3318
-weighted avg       0.47      0.47      0.47      3318
 
 Note:
 > This project was done prior to learning other Machine Learning algorithms. Better performance could be achieved by using more complex algorithms or better feature engineering.
